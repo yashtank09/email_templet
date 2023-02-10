@@ -1,0 +1,46 @@
+canvas{
+    filter: blur(px);
+}
+.mainTable{
+    width:100%;
+    border-collapse:collapse;
+    border:0;
+    border-spacing:0;
+    background:#ffffff;
+}
+.TitleContent{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.loginBtn{
+    margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;
+    background-color: #153643; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footerContent{
+    padding:20px;background:#004a8f;
+}
+.footerContentTBL{
+    width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px;font-family:Arial,sans-serif;
+    margin:0;font-size:14px;line-height:16px;font-family:Arial,sans-serif;color: #ffffff;
+}
+td.footerContentTBL{
+    padding:0; width:30%;
+}
+.anchorLogo{
+    padding:0 0 0 10px;width:38px;
+}
+.fbLogo{
+    height:auto;display:block;border:0;
+}
+.twitLogo{
+    height:auto;display:block;border:0;
+}

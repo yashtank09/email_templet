@@ -1,3 +1,4 @@
+// background animation
 let c = init("canvas"),
   w = (canvas.width = window.innerWidth),
   h = (canvas.height = window.innerHeight);
@@ -61,7 +62,7 @@ function init(elemid) {
     c = canvas.getContext("2d"),
     w = (canvas.width = window.innerWidth),
     h = (canvas.height = window.innerHeight);
-  c.fillStyle = "rgba(40,30,30,1)";
+  c.fillStyle = "rgba(100,50,30)";
   c.fillRect(0, 0, w, h);
   return c;
 }
